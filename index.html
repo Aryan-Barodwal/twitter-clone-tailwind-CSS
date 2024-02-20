@@ -1,0 +1,484 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Clone</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="src/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="bg-black">
+
+    <main class="bg-black w-full text-white flex justify-center md:justify-center">
+        <div class="left w-16 p-4 h-max sticky top-0 md:w-[270px]">
+            <div class="sticky top-0">
+                <div class="logo mb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="icons">
+                    <ul class="flex flex-col space-y-2.5 md:space-y-4 ">
+                        <li class="flex items-center gap-3 font-bold tracking-wider hover: rounded-full cursor-pointer">
+                            <span class="text-4xl material-symbols-outlined ">
+                                home
+                            </span><span class="hidden md:block">Home</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined ">
+                                search
+                            </span>
+                            <span class="hidden md:block">Explore</span>
+                        </li>
+                        <li class="flex items-center  cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                Notifications
+                            </span><span class="hidden md:block">Notifications</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                Message
+                            </span>
+                            <span class="hidden md:block">Messages</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                indeterminate_check_box
+                            </span>
+                            <span class="hidden md:block">Grok</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                List
+                            </span>
+                            <span class="hidden md:block">Lists</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                Bookmarks
+                            </span>
+                            <span class="hidden md:block">Bookmarks</span>
+                        </li>
+                        <li class="flex items-center cursor-pointer gap-3 font-bold tracking-wider">
+                            <span class="text-4xl material-symbols-outlined">
+                                Communities
+                            </span>
+                            <span class="hidden md:block">Communities</span>
+                        </li>
+                        <li class="flex items-center gap-3 font-bold tracking-wider cursor-pointer">
+                            <span class="text-4xl material-symbols-outlined">
+                                workspace_premium
+                            </span>
+                            <span class="hidden md:block">Premium</span>
+
+                        </li>
+                        <li class="flex items-center gap-3 font-bold tracking-wider cursor-pointer">
+                            <span class="text-4xl material-symbols-outlined">
+                                account_circle
+                            </span>
+                            <span class="hidden md:block">Profile</span>
+                        </li>
+                        <li class="flex items-center gap-3 font-bold tracking-wider cursor-pointer">
+                            <span class="text-4xl material-symbols-outlined hover:border-">
+                                More
+                            </span>
+                            <span class="hidden md:block">More</span>
+                        </li>
+                    </ul>
+
+                    <div class="btnAll flex flex-col gap-4 max-h-10 md:gap-28 md:justify-between mt-5 "> <!-- 25.5 -->
+                        <div class="1">
+                            <button
+                                class="btn11 h-10 border border-sky-500 rounded-3xl bg-[#0EA5E9] w-10 text-xs md:w-full">
+                                Post
+                            </button>
+                        </div>
+                        <div class="2">
+                            <div
+                                class="btn22  border-none flex justify-start rounded-full w-[2.56rem] cursor-pointer md:justify-between md:w-60 md:p-2 md:hover:bg-[#181818]">
+                                <div class="flex">
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                    <div class="hidden md:block">
+                                        <h3 class="pl-2">
+                                            Aryan Barodwal
+                                            <span class="text-cyan-300">
+                                                <i class="ri-verified-badge-fill"></i></span>
+                                            <span class="info flex flex-col text-slate-500">
+                                                @Aryan5617
+                                            </span>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="more text-slate-500 hidden md:block">
+                                    <i class="ri-more-line"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- w-1/3 -->
+            </div>
+        </div>
+        <div class="middle border-[1px] border-x-gray-600 border-y-black w-screen md:w-1/3">
+            <div class="">
+                <div
+                    class="upperPart flex justify-around font-bold border-b-[1px] border-b-gray-600 py-3 sticky top-0 bg-[#010203]">
+                    <h3 class=" border-b-2 border-blue-500  cursor-pointer">For you</h3>
+                    <h3 class="hover:border-b-2 border-blue-500  cursor-pointer">Following</h3>
+                    <!-- <h3 class="hover:border-b-2 border-blue-500 rounded cursor-pointer">Software Engineering</h3> -->
+                    <span class="material-symbols-outlined cursor-pointer">
+                        settings
+                    </span>
+                </div>
+
+                <div class="upper-box p-4 border-b-[1px] border-b-gray-600">
+                    <div class="upper">
+                        <div class="flex flex-row justify-start gap-3 items-center">
+                            <img class="rounded-3xl h-fit" src="img/RfvJQi7T_normal.jpg" alt="">
+                            <input type="text"
+                                class="bg-black p-2 h-14 w-full text-xl placeholder-slate-500 text-start outline-none"
+                                placeholder="What is happening?!" style="vertical-align: top;"></input>
+                        </div>
+                        <div class="ml-16 mt-12 text-cyan-500 mb">
+                            <p><i class="ri-send-plane-2-fill"></i>Everyone can reply</p>
+                        </div>
+                        <div class="border-slate-600 ml-5 mr-5 md:ml-12 md:mr-12">
+                            <hr class="border-slate-600 mt-3">
+                        </div>
+                        <div class="last-one flex flex-row justify-between mt-4 ml-4 mr-4  md:ml-14 md:mr-14  ">
+                            <div class="icons font-medium text-xl text-cyan-500">
+                                <i class="ri-file-image-line"></i>
+                                <i class="ri-file-gif-line"></i>
+                                <i class="ri-archive-drawer-line"></i>
+                                <i class="ri-calendar-line"></i>
+                                <i class="ri-map-pin-fill"></i>
+                            </div>
+                            <div class="btnnn">
+                                <button class="border border-cyan-500 bg-cyan-500 rounded-2xl p-1 w-16">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts">
+                    <!-- 1 -->
+                    <div class="border-b-[1px] pb-3 border-slate-600">
+                        <div class="flex justify-between items-center p-4 ">
+                            <div class="flex">
+                                <div class="">
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                </div>
+
+                                <h3 class="pl-4">
+                                    Aryan Barodwal
+                                    <span class="text-cyan-300">
+                                        <i class="ri-verified-badge-fill"></i></span>
+                                    <span class="text-slate-500">
+                                        @Aryan5617
+                                    </span>
+                                    <span class="info flex flex-col">
+                                        Spotify Clone 😎
+                                    </span>
+                                </h3>
+                            </div>
+                            <div class="more hidden w-0 md:block text-slate-500 md:p-4">
+                                <i class="ri-more-line"></i>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="orignal-posts flex flex-col w-10/12 m-auto">
+                                <h2 class="text-cyan-500 pl-2">#Letsconnect</h2>
+                                <video class="rounded-xl" width="550" height="360" src="video/InShot_20240220_151738223.mp4"
+                                    autoplay loop muted controls></video>
+                            </div>
+                            <div class="icons flex justify-evenly mt-4 text-sm text-gray-400 cursor-pointer">
+                                <i
+                                    class="ri-chat-1-line hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">33</i>
+                                <i
+                                    class="ri-git-fork-fill hover:bg-[#071A14] p-1 rounded-full hover:text-[#00BA7C]">10</i>
+                                <i
+                                    class="heartt ri-heart-line cursor-pointer hover:bg-[#210914] p-1 rounded-full hover:text-[#DC1571]">12</i>
+                                <i
+                                    class="ri-bar-chart-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">409</i>
+                                <i class="ri-save-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">1</i>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="border-b-[1px] pb-3 border-slate-600">
+                        <div class="flex justify-between items-center p-4 ">
+                            <div class="flex">
+                                <div>
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                </div>
+                                <h3 class="pl-4">
+                                    Aryan Barodwal
+                                    <span class="text-cyan-300">
+                                        <i class="ri-verified-badge-fill"></i></span>
+                                    <span class="text-slate-500">
+                                        @Aryan5617
+                                    </span>
+                                    <span class="info flex flex-col">
+                                        Learned GSAP 😄
+                                    </span>
+
+                                </h3>
+                            </div>
+                            <div class="more hidden md:block text-slate-500">
+                                <i class="ri-more-line"></i>
+                            </div>
+                        </div>
+
+                        <div class="post ">
+                            <div class="orignal-posts flex flex-col w-10/12 m-auto">
+                                <h2 class="text-cyan-500 pl-2">#Letsconnect #LearninPublic</h2>
+                                <video class="rounded-xl" width="550" height="360" src="video/animation using GSAP.mp4"
+                                    autoplay loop muted controls></video>
+                            </div>
+                            <div class="icons flex justify-evenly mt-4 text-sm text-gray-400 cursor-pointer">
+                                <i
+                                    class="ri-chat-1-line hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">32</i>
+                                <i
+                                    class="ri-git-fork-fill hover:bg-[#071A14] p-1 rounded-full hover:text-[#00BA7C]">30</i>
+                                <i
+                                    class="heartt ri-heart-line cursor-pointer hover:bg-[#210914] p-1 rounded-full hover:text-[#DC1571]">12</i>
+                                <i
+                                    class="ri-bar-chart-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">519</i>
+                                <i class="ri-save-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">2</i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="border-b-[1px] pb-3 border-slate-600">
+                        <div class="flex justify-between items-center p-4">
+                            <div class="flex">
+                                <div>
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                </div>
+                                <h3 class="pl-4">
+                                    Aryan Barodwal
+                                    <span class="text-cyan-300">
+                                        <i class="ri-verified-badge-fill"></i></span>
+                                    <span class="text-slate-500">
+                                        @Aryan5617
+                                    </span>
+                                    <span class="info flex flex-col ">
+                                        Let's learn Tailwind CSS
+                                    </span>
+
+                                </h3>
+                            </div>
+                            <div class="more hidden md:block text-slate-500">
+                                <i class="ri-more-line"></i>
+                            </div>
+                        </div>
+
+                        <div class="post ">
+                            <div class="orignal-posts flex flex-col w-10/12 m-auto">
+                                <h2 class="text-cyan-500 pl-2">#Letsconnect #LearninPublic</h2>
+                                <img class="rounded-2xl" src="img/GGJrDyDagAAWYa8.png" alt="">
+                            </div>
+                            <div class="icons flex justify-evenly mt-4 text-sm text-gray-400 cursor-pointer">
+                                <i
+                                    class="ri-chat-1-line hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">34</i>
+                                <i
+                                    class="ri-git-fork-fill hover:bg-[#071A14] p-1 rounded-full hover:text-[#00BA7C]">1</i>
+                                <i
+                                    class="heartt ri-heart-line cursor-pointer hover:bg-[#210914] p-1 rounded-full hover:text-[#DC1571]">12</i>
+                                <i
+                                    class="ri-bar-chart-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">479</i>
+                                <i class="ri-save-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">1</i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="border-b-[1px] pb-3 border-slate-600">
+                        <div class="flex justify-between items-center p-4">
+                            <div class="flex">
+                                <div>
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                </div>
+                                <h3 class="pl-4">
+                                    Aryan Barodwal
+                                    <span class="text-cyan-300">
+                                        <i class="ri-verified-badge-fill"></i></span>
+                                    <span class="text-slate-500">
+                                        @Aryan5617
+                                    </span>
+                                    <span class="info flex flex-col ">
+                                        Node Modules 😮‍💨😳
+                                    </span>
+
+                                </h3>
+                            </div>
+                            <div class="more hidden md:block text-slate-500">
+                                <i class="ri-more-line"></i>
+                            </div>
+                        </div>
+
+                        <div class="post ">
+                            <div class="orignal-posts flex flex-col w-10/12 m-auto">
+                                <h2 class="text-cyan-500 pl-2">#Letsconnect #LearninPublic</h2>
+                                <img class="rounded-2xl" src="img/GD5qgyKaUAAnxEF.png" alt="">
+                            </div>
+                            <div class="icons flex justify-evenly mt-4 text-sm text-gray-400 cursor-pointer">
+                                <i
+                                    class="ri-chat-1-line hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">23</i>
+                                <i
+                                    class="ri-git-fork-fill hover:bg-[#071A14] p-1 rounded-full hover:text-[#00BA7C]">4</i>
+                                <i
+                                    class="heartt ri-heart-line cursor-pointer hover:bg-[#210914] p-1 rounded-full hover:text-[#DC1571]">12</i>
+                                <i
+                                    class="ri-bar-chart-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">809</i>
+                                <i class="ri-save-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">1</i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="border-b-[1px] pb-3 border-slate-600">
+                        <div class="flex justify-between items-center p-4">
+                            <div class="flex">
+                                <div>
+                                    <img class="rounded-3xl" src="img/RfvJQi7T_normal.jpg" alt="">
+                                </div>
+                                <h3 class="pl-4">
+                                    Aryan Barodwal
+                                    <span class="text-cyan-300">
+                                        <i class="ri-verified-badge-fill"></i></span>
+                                    <span class="text-slate-500">
+                                        @Aryan5617
+                                    </span>
+                                    <span class="info flex flex-col ">
+                                        How promises works!!
+                                    </span>
+
+                                </h3>
+                            </div>
+                            <div class="more hidden md:block text-slate-500">
+                                <i class="ri-more-line"></i>
+                            </div>
+                        </div>
+                        <div class="post ">
+                            <div class="orignal-posts flex flex-col w-10/12 m-auto">
+                                <h2 class="text-cyan-500 pl-2">#Letsconnect #LearninPublic</h2>
+                                <!-- <img class="rounded-2xl" src="img/GGJrDyDagAAWYa8.png" alt=""> -->
+                                <video class="rounded-xl" width="550" height="360" src="video/GCYYtixbcAAX1l2.mp4"
+                                    autoplay loop muted controls></video>
+                            </div>
+                            <div class="icons flex justify-evenly mt-4 text-sm text-gray-400 cursor-pointer">
+                                <i
+                                    class="ri-chat-1-line hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">13</i>
+                                <i
+                                    class="ri-git-fork-fill hover:bg-[#071A14] p-1 rounded-full hover:text-[#00BA7C]">20</i>
+                                <i
+                                    class="heartt ri-heart-line cursor-pointer hover:bg-[#210914] p-1 rounded-full hover:text-[#DC1571]">12</i>
+                                <i
+                                    class="ri-bar-chart-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">339</i>
+                                <i class="ri-save-fill hover:bg-[#0A1720] p-1 rounded-full hover:text-[#1D9BF0]">1</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last border-b-[1px] border-slate-600">
+                        <a href="https://x.com/Aryan_5617?t=UEoqM6k3kG7QQWFjEQCOFQ&s=09" target="_blank">
+                            <h2 class="h-10 text-cyan-500 flex justify-center items-center cursor-pointer">
+                                Follow For More <i class="ri-arrow-right-line flex justify-center items-center pl-1"></i>
+                            </h2>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right ml-2 h-1/2 flex flex-col justify-start space-y-3 sticky top-0 ">
+            <div class="sticky top-0 space-y-3 hidden md:block md:w-1/6 md:mt-2">
+                <div class="input-box">
+                    <input class="input-boxx bg-slate-800 rounded-lg p-1 w-72 h-9 outline-none" type="text"
+                        placeholder="&#128269; Search">
+                </div>
+                <div class="border border-slate-700 p-3 w-72 rounded-2xl flex flex-col space-y-2">
+                    <h1 class="font-bold text-xl">
+                        Subscribe to Premium
+                    </h1>
+                    <p class="font-medium">
+                        Subscribe to unlock new features and if eligible, receive a share of ads revenue.
+                    </p>
+                    <button class="border border-sky-500 w-24 bg-sky-500 rounded">Subscribe</button>
+                </div>
+
+                <div class="h-full">
+                    <div class="border border-slate-700 p-3 w-72 rounded-2xl flex flex-col space-y-2">
+                        <div class="#things">
+                            <div class="heading">
+                                <h1 class="font-bold text-xl">
+                                    What’s happening
+                                </h1>
+                            </div>
+                            <div class="trending-things m-3">
+                                <p class="text-slate-500">Trending</p>
+                                <h3>
+                                    #Sarfaraz <br>
+                                    <span class="text-slate-500">11.1K posts</span>
+                                </h3>
+                                <br>
+                                <p class="text-slate-500">Trending in India</p>
+                                <h3>
+                                    #KurchiMadathapetti <br>
+                                    <span class="text-slate-500">11.1K posts</span>
+                                </h3>
+                                <br>
+                                <p class="text-slate-500">
+                                    Trending in India <br>
+
+                                </p>
+                                <h3>
+                                    SNAKE SUPPLIER ELVISH <br>
+                                    <span class="text-slate-500">113K posts</span>
+                                </h3>
+                                <br>
+                                <p>
+                                    <span class="text-slate-500">Trending in India</span> <br>
+                                    पुलिस भर्ती <br>
+                                    <span class="text-slate-500">4,526 posts </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-slate-700 p-3 w-72 rounded-2xl flex flex-col space-y-2 mt-3">
+                        <h1 class="font-bold text-xl">
+                            Live on X
+                        </h1>
+                        <p class="font-medium">
+                            <span class="text-cyan-300">
+                                <i class="ri-verified-badge-fill"></i></span>Aryan Majumder 𝕏
+                            is listening
+                            Saturday ki chai.
+                        </p>
+                        <button class="border border-sky-500 w-24 bg-sky-500 rounded">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
